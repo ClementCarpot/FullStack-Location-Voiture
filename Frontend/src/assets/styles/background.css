@@ -1,0 +1,15 @@
+body:not(.erreur404) {
+    margin: 0;
+    padding: 0;
+    background-image: url('/src/assets/images/location-voiture.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    font-family: 'Roboto', sans-serif;
+}
+
+.background {
+    height: calc(100vh - 75px);
+    padding-top: 75px;
+}
